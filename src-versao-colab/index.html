@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./js/main.js" defer></script>
+    <title>Cálculo de frete</title>
+</head>
+
+<body>
+    <form id="form">
+        <label>Código de Endereçamento Postal</label>
+        <input name="cep" type="text" id="cep" value="" placeholder="Inserir CEP" size="10" maxlength="9" />
+        <span id="message"></span>
+        <button id="btn" type="submit">Calcular Frete</button>
+        <a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php"
+            id="btnDontRememberZipCode" class="">Não lembro meu CEP</a>
+    </form>
+    <div id="response"></div>
+</body>
+
+</html>
